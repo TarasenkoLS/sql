@@ -1,0 +1,114 @@
+use exaple;
+ALTER TABLE users ADD COLUMN birthday_at DATETIME;
+ALTER TABLE users modify COLUMN id bigint unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY;
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('1', 'autem', '1979-03-22 11:43:02');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('2', 'sed', '1988-06-26 18:19:44');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('3', 'sed', '2005-11-05 16:00:18');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('4', 'atque', '1973-07-17 23:36:29');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('5', 'voluptate', '1971-11-04 11:45:40');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('6', 'sapiente', '2007-10-13 21:29:02');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('7', 'id', '1994-03-03 14:42:13');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('8', 'beatae', '1976-10-19 04:28:11');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('9', 'voluptatem', '2019-04-16 08:08:27');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('10', 'facilis', '2011-12-12 23:51:10');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('11', 'ad', '2011-05-04 06:20:12');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('12', 'molestias', '1980-02-06 15:09:58');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('13', 'et', '1974-08-09 19:16:13');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('14', 'aliquid', '1984-03-09 18:52:10');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('15', 'ea', '1975-02-28 04:37:27');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('16', 'consequatur', '2016-11-21 17:52:29');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('17', 'odit', '1970-06-13 18:33:18');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('18', 'aut', '1989-10-20 00:52:39');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('19', 'dolorem', '2019-03-05 22:44:34');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('20', 'alias', '2004-03-01 09:53:19');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('21', 'est', '1994-12-23 01:16:00');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('22', 'illo', '2001-02-14 12:32:55');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('23', 'illum', '2002-03-10 02:58:27');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('24', 'occaecati', '2009-05-05 15:21:32');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('25', 'molestiae', '2020-12-30 07:31:43');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('26', 'amet', '2004-08-20 22:31:54');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('27', 'cumque', '1999-08-12 07:28:25');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('28', 'et', '2021-01-28 08:55:54');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('29', 'a', '1973-12-11 01:49:13');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('30', 'ut', '2000-07-06 02:27:31');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('31', 'a', '2017-04-29 11:56:05');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('32', 'et', '2001-11-16 16:12:13');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('33', 'provident', '1999-12-09 23:13:39');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('34', 'incidunt', '1978-05-20 15:44:01');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('35', 'a', '2015-04-09 05:19:44');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('36', 'distinctio', '1977-03-06 10:42:07');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('37', 'libero', '1981-06-06 04:36:22');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('38', 'ipsam', '1983-12-13 05:55:14');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('39', 'molestiae', '1977-08-18 01:34:34');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('40', 'amet', '1979-11-11 22:53:53');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('41', 'exercitationem', '1985-09-02 12:22:10');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('42', 'vel', '2015-12-07 15:29:37');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('43', 'quia', '1979-08-10 19:58:22');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('44', 'labore', '1971-07-21 00:27:39');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('45', 'beatae', '1980-09-10 11:22:32');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('46', 'aut', '1976-03-01 17:39:14');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('47', 'architecto', '1997-08-12 05:08:21');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('48', 'laborum', '1992-08-31 18:09:36');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('49', 'maxime', '2002-01-23 05:47:47');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('50', 'aspernatur', '2005-12-30 09:42:19');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('51', 'assumenda', '2002-07-28 02:28:51');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('52', 'sit', '1999-02-13 02:46:30');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('53', 'non', '1986-03-07 02:22:30');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('54', 'et', '1996-03-30 07:35:53');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('55', 'id', '2003-05-01 07:55:15');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('56', 'libero', '2007-07-29 19:34:08');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('57', 'nesciunt', '1994-01-18 07:57:30');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('58', 'et', '1973-03-28 03:46:41');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('59', 'magnam', '1991-07-16 15:58:13');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('60', 'et', '1973-03-17 12:03:23');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('61', 'aliquid', '1971-08-19 01:01:56');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('62', 'delectus', '1971-09-12 22:32:34');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('63', 'inventore', '1970-03-01 16:15:03');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('64', 'quae', '1995-09-01 15:27:26');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('65', 'earum', '2020-09-03 09:16:34');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('66', 'culpa', '1978-12-14 08:24:17');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('67', 'qui', '2008-01-14 14:33:33');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('68', 'aut', '2010-08-05 17:39:43');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('69', 'rem', '1977-07-29 11:25:57');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('70', 'maiores', '1980-05-03 18:09:05');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('71', 'facere', '1977-10-15 15:28:53');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('72', 'non', '2006-09-27 19:31:41');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('73', 'quis', '2003-08-13 23:15:57');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('74', 'quia', '1975-02-13 08:19:00');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('75', 'cumque', '2019-07-05 16:49:17');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('76', 'nam', '1999-09-01 08:45:43');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('77', 'rerum', '2012-03-19 21:15:03');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('78', 'magnam', '1994-06-30 16:57:11');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('79', 'et', '2017-09-22 17:02:03');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('80', 'in', '2017-09-04 15:44:45');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('81', 'animi', '2020-12-25 09:08:55');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('82', 'odit', '1978-09-25 22:28:55');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('83', 'enim', '2017-09-04 03:23:26');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('84', 'voluptate', '1994-04-09 14:17:33');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('85', 'aut', '2012-09-28 10:08:42');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('86', 'dolorum', '1997-04-25 01:30:18');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('87', 'facilis', '2002-11-07 19:38:03');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('88', 'quae', '1987-09-15 21:11:45');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('89', 'sunt', '2011-05-24 23:51:54');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('90', 'maxime', '2019-11-06 03:28:44');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('91', 'at', '2017-01-27 23:45:27');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('92', 'est', '1972-05-09 13:42:31');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('93', 'repellat', '2015-10-06 04:21:12');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('94', 'qui', '2001-10-28 00:01:30');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('95', 'ut', '2004-07-06 19:28:24');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('96', 'aut', '2001-04-09 04:38:53');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('97', 'expedita', '2019-09-17 07:35:14');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('98', 'sint', '2017-02-06 19:54:47');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('99', 'sed', '1999-08-29 23:19:27');
+INSERT INTO `users` (`id`, `name`, `birthday_at`) VALUES ('100', 'consequatur', '1989-05-17 16:07:32');
+
+
+SELECT
+    name,  birthday_at,
+	CASE 
+        WHEN DATE_FORMAT(birthday_at, '%m') = 05 THEN 'may'
+        WHEN DATE_FORMAT(birthday_at, '%m') = 08 THEN 'august'
+    END AS mounth
+FROM
+    users
+WHERE DATE_FORMAT(birthday_at, '%m') in (05, 08);
