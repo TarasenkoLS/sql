@@ -1,0 +1,26 @@
+
+Практическое задание по теме “NoSQL”
+Зазача 1. В базе данных Redis подберите коллекцию для подсчета посещений с определенных IP-адресов.
+
+MSET IP1 0 IP2 0 IP3 0
+INCR IP1
+INCR IP2
+INCR IP3
+MGET IP1 IP2 IP3
+
+Зазача 2. При помощи базы данных Redis решите задачу поиска имени пользователя по электронному адресу и наоборот, 
+поиск электронногоадреса пользователя по его имени.
+MSET Eileen eschaden@example.org Mallie jdare@example.org Virgil ngaylord@example.net Kole qhuels@example.com
+MSET eschaden@example.org Eileen jdare@example.org Mallie ngaylord@example.net Virgil qhuels@example.com Kole
+GET Kole -> qhuels@example.com
+GET qhuels@example.com -> Kole
+
+Зазача 3. Организуйте хранение категорий и товарных позиций учебной базы данных shop в СУБД MongoDB.
+db.shop.insert({category: 'Процессоры'})
+db.shop.insert({category: 'Материнские платы'})
+
+db.shop.update({category: 'Процессоры'}, {$set: {products:[{name:'AMD FX-8320', descreption: 'Процессор для настольных персональных компьютеров, основанных на платформе AMD.', price: '7120.00'}, 
+							   {name:'Intel Core i3-8100', descreption: 'Процессор для настольных персональных компьютеров, основанных на платформе Intel.', price: '8120.00'}] }})
+db.shop.update({category: 'Материнские платы'}, {$set: {products:[{name:'ASUS ROG MAXIMUS X HERO', descreption: 'Материнская плата ASUS ROG MAXIMUS X HERO, Z370, Socket 1151-V2', price: '19310.00'}, 
+								{name:'Gigabyte H310M S2H', descreption: 'Материнская плата Gigabyte H310M S2H, H310, Socket 1151-V2, DDR4, mATX', price: '4790.00'}] }})
+
